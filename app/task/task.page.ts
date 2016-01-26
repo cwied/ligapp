@@ -5,7 +5,15 @@ import {TaskService} from './task.service';
 import {CommentPage} from '../comment/comment.page';
 
 @Page({
-  templateUrl: 'build/task/task-list.html',
+  template: `<ion-content padding>
+  <h2>{{title}}</h2>
+  <ion-list>
+    <ion-item *ngFor="#task of tasks" (click)="onSelect(task)">
+      <span>{{task.id}}</span> {{task.name}}
+    </ion-item>
+  </ion-list>
+</ion-content>
+`,
   providers: [TaskService]
 })
 export class TaskPage {

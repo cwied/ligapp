@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0c3953a8-a782-4869-ae33-619cafcb7025" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/comment/comment.create.page.ts" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/comment/comment-list.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/task/task-list.html" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/comment/comment-list.html" afterPath="$PROJECT_DIR$/app/comment/comment-list.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/comment/comment.create.page.ts" afterPath="$PROJECT_DIR$/app/comment/comment.create.page.ts" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/comment/comment.page.ts" afterPath="$PROJECT_DIR$/app/comment/comment.page.ts" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/task/task.page.ts" afterPath="$PROJECT_DIR$/app/task/task.page.ts" />
     </list>
@@ -34,17 +35,17 @@
       <file leaf-file-name="comment.page.ts" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/comment/comment.page.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.45731708">
-              <caret line="20" column="26" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
+            <state vertical-scroll-proportion="0.13109756">
+              <caret line="13" column="178" selection-start-line="13" selection-start-column="66" selection-end-line="13" selection-end-column="66" />
               <folding>
-                <marker date="1453816635000" expanded="true" signature="295:512" placeholder="..." />
-                <marker date="1453816635000" expanded="true" signature="315:378" placeholder="..." />
-                <marker date="1453816635000" expanded="true" signature="404:494" placeholder="..." />
-                <marker date="1453816635000" expanded="true" signature="539:800" placeholder="..." />
-                <marker date="1453816635000" expanded="true" signature="554:785" placeholder="..." />
-                <marker date="1453816635000" expanded="true" signature="631:769" placeholder="..." />
-                <marker date="1453816635000" expanded="true" signature="688:689" placeholder="..." />
-                <marker date="1453816635000" expanded="true" signature="688:749" placeholder="..." />
+                <marker date="1453817467000" expanded="true" signature="295:512" placeholder="..." />
+                <marker date="1453817467000" expanded="true" signature="315:378" placeholder="..." />
+                <marker date="1453817467000" expanded="true" signature="404:494" placeholder="..." />
+                <marker date="1453817467000" expanded="true" signature="539:837" placeholder="..." />
+                <marker date="1453817467000" expanded="true" signature="567:822" placeholder="..." />
+                <marker date="1453817467000" expanded="true" signature="648:802" placeholder="..." />
+                <marker date="1453817467000" expanded="true" signature="709:710" placeholder="..." />
+                <marker date="1453817467000" expanded="true" signature="709:778" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -54,18 +55,25 @@
         <entry file="file://$PROJECT_DIR$/app/comment/comment.create.page.ts">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="-6.6666665">
-              <caret line="12" column="13" selection-start-line="5" selection-start-column="2" selection-end-line="12" selection-end-column="13" />
+              <caret line="17" column="27" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
               <folding>
-                <marker date="1453816065000" expanded="true" signature="112:508" placeholder="{&quot;template&quot;: `&#10;  &lt;ion-navbar *navbar&gt;&#10;    &lt;ion-title&gt;&#10;        Add Item&#10;    &lt;/ion-title&gt;&#10;    &lt;ion-buttons end&gt;&#10;        &lt;button (click)=&quot;save()&quot;&gt;Save&lt;/button&gt;&#10;    &lt;/ion-buttons&gt;&#10;&lt;/ion-navbar&gt;&#10;&#10;&lt;ion-content&gt;&#10;    &lt;ion-list&gt;&#10;      &lt;ion-input floating-label&gt;&#10;        &lt;ion-label&gt;Title&lt;/ion-label&gt;&#10;        &lt;input type=&quot;text&quot; [(ngModel)]=&quot;text&quot; /&gt;&#10;      &lt;/ion-input&gt;&#10;    &lt;/ion-list&gt;&#10;&lt;/ion-content&gt;&#10;&#10;`...}" />
-                <marker date="1453816065000" expanded="true" signature="151:303" placeholder="..." />
-                <marker date="1453816065000" expanded="true" signature="167:201" placeholder="..." />
-                <marker date="1453816065000" expanded="true" signature="223:289" placeholder="..." />
-                <marker date="1453816065000" expanded="true" signature="318:502" placeholder="..." />
-                <marker date="1453816065000" expanded="true" signature="333:487" placeholder="..." />
-                <marker date="1453816065000" expanded="true" signature="366:471" placeholder="..." />
-                <marker date="1453816065000" expanded="true" signature="541:966" placeholder="{...}" />
-                <marker date="1453816065000" expanded="true" signature="794:877" placeholder="{&quot;id&quot;: 0...}" />
+                <marker date="1453817737000" expanded="true" signature="153:333" placeholder="..." />
+                <marker date="1453817737000" expanded="true" signature="173:215" placeholder="..." />
+                <marker date="1453817737000" expanded="true" signature="241:315" placeholder="..." />
+                <marker date="1453817737000" expanded="true" signature="352:563" placeholder="..." />
+                <marker date="1453817737000" expanded="true" signature="371:544" placeholder="..." />
+                <marker date="1453817737000" expanded="true" signature="408:524" placeholder="..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="task.service.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/task/task.service.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-4.4444447">
+              <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -73,9 +81,14 @@
       <file leaf-file-name="task.page.ts" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/task/task.page.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-12.777778">
-              <caret line="23" column="11" selection-start-line="23" selection-start-column="11" selection-end-line="23" selection-end-column="21" />
-              <folding />
+            <state vertical-scroll-proportion="-11.666667">
+              <caret line="21" column="43" selection-start-line="21" selection-start-column="43" selection-end-line="21" selection-end-column="43" />
+              <folding>
+                <marker date="1453817238000" expanded="true" signature="230:486" placeholder="{&quot;template&quot;: `&lt;ion-content padding&gt;&#10;  &lt;h2&gt;{{title}}&lt;/h2&gt;&#10;  &lt;ion-list&gt;&#10;    &lt;ion-item *ngFor=&quot;#task of tasks&quot; (click)=&quot;onSelect(task)&quot;&gt;&#10;      &lt;span&gt;{{task.id}}&lt;/span&gt; {{task.name}}&#10;    &lt;/ion-item&gt;&#10;  &lt;/ion-list&gt;&#10;&lt;/ion-content&gt;&#10;`...}" />
+                <marker date="1453817238000" expanded="true" signature="265:453" placeholder="..." />
+                <marker date="1453817238000" expanded="true" signature="299:438" placeholder="..." />
+                <marker date="1453817238000" expanded="true" signature="363:424" placeholder="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -114,10 +127,10 @@
         <option value="$PROJECT_DIR$/app/task/task.ts" />
         <option value="$PROJECT_DIR$/app/task/mock-tasks.ts" />
         <option value="$PROJECT_DIR$/app/comment/comment-list.html" />
-        <option value="$PROJECT_DIR$/app/task/task.page.ts" />
         <option value="$PROJECT_DIR$/app/pages/add-item/add-item.js" />
-        <option value="$PROJECT_DIR$/app/comment/comment.create.page.ts" />
+        <option value="$PROJECT_DIR$/app/task/task.page.ts" />
         <option value="$PROJECT_DIR$/app/comment/comment.page.ts" />
+        <option value="$PROJECT_DIR$/app/comment/comment.create.page.ts" />
       </list>
     </option>
   </component>
@@ -616,12 +629,12 @@
       <updated>1453801042468</updated>
       <workItem from="1453802490887" duration="278000" />
       <workItem from="1453802805282" duration="6307000" />
-      <workItem from="1453810916943" duration="5338000" />
+      <workItem from="1453810916943" duration="6355000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11923000" />
+    <option name="totallyTimeSpent" value="12940000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -721,14 +734,14 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="6" column="27" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
           <folding>
-            <marker date="1453816635000" expanded="true" signature="295:512" placeholder="..." />
-            <marker date="1453816635000" expanded="true" signature="315:378" placeholder="..." />
-            <marker date="1453816635000" expanded="true" signature="404:494" placeholder="..." />
-            <marker date="1453816635000" expanded="true" signature="539:800" placeholder="..." />
-            <marker date="1453816635000" expanded="true" signature="554:785" placeholder="..." />
-            <marker date="1453816635000" expanded="true" signature="631:769" placeholder="..." />
-            <marker date="1453816635000" expanded="true" signature="688:689" placeholder="..." />
-            <marker date="1453816635000" expanded="true" signature="688:749" placeholder="..." />
+            <marker date="1453817467000" expanded="true" signature="295:512" placeholder="..." />
+            <marker date="1453817467000" expanded="true" signature="315:378" placeholder="..." />
+            <marker date="1453817467000" expanded="true" signature="404:494" placeholder="..." />
+            <marker date="1453817467000" expanded="true" signature="539:837" placeholder="..." />
+            <marker date="1453817467000" expanded="true" signature="567:822" placeholder="..." />
+            <marker date="1453817467000" expanded="true" signature="648:802" placeholder="..." />
+            <marker date="1453817467000" expanded="true" signature="709:710" placeholder="..." />
+            <marker date="1453817467000" expanded="true" signature="709:778" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -745,7 +758,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1453817238000" expanded="true" signature="230:486" placeholder="{&quot;template&quot;: `&lt;ion-content padding&gt;&#10;  &lt;h2&gt;{{title}}&lt;/h2&gt;&#10;  &lt;ion-list&gt;&#10;    &lt;ion-item *ngFor=&quot;#task of tasks&quot; (click)=&quot;onSelect(task)&quot;&gt;&#10;      &lt;span&gt;{{task.id}}&lt;/span&gt; {{task.name}}&#10;    &lt;/ion-item&gt;&#10;  &lt;/ion-list&gt;&#10;&lt;/ion-content&gt;&#10;`...}" />
+            <marker date="1453817238000" expanded="true" signature="265:453" placeholder="..." />
+            <marker date="1453817238000" expanded="true" signature="299:438" placeholder="..." />
+            <marker date="1453817238000" expanded="true" signature="363:424" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -753,14 +771,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="7428" column="22" selection-start-line="7428" selection-start-column="22" selection-end-line="7428" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/task/task-list.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="20" selection-start-line="0" selection-start-column="20" selection-end-line="0" selection-end-column="20" />
           <folding />
         </state>
       </provider>
@@ -785,7 +795,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1453817238000" expanded="true" signature="230:486" placeholder="{&quot;template&quot;: `&lt;ion-content padding&gt;&#10;  &lt;h2&gt;{{title}}&lt;/h2&gt;&#10;  &lt;ion-list&gt;&#10;    &lt;ion-item *ngFor=&quot;#task of tasks&quot; (click)=&quot;onSelect(task)&quot;&gt;&#10;      &lt;span&gt;{{task.id}}&lt;/span&gt; {{task.name}}&#10;    &lt;/ion-item&gt;&#10;  &lt;/ion-list&gt;&#10;&lt;/ion-content&gt;&#10;`...}" />
+            <marker date="1453817238000" expanded="true" signature="265:453" placeholder="..." />
+            <marker date="1453817238000" expanded="true" signature="299:438" placeholder="..." />
+            <marker date="1453817238000" expanded="true" signature="363:424" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -870,14 +885,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/task/task.service.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/ionic-framework/bundles/ionic.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -918,14 +925,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/task/task-list.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="7" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/task/mock-tasks.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -934,53 +933,55 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/comment/comment-list.html">
+    <entry file="file://$PROJECT_DIR$/app/task/task.service.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="11" selection-end-column="14" />
+        <state vertical-scroll-proportion="-4.4444447">
+          <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/task/task.page.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-12.777778">
-          <caret line="23" column="11" selection-start-line="23" selection-start-column="11" selection-end-line="23" selection-end-column="21" />
-          <folding />
+        <state vertical-scroll-proportion="-11.666667">
+          <caret line="21" column="43" selection-start-line="21" selection-start-column="43" selection-end-line="21" selection-end-column="43" />
+          <folding>
+            <marker date="1453817238000" expanded="true" signature="230:486" placeholder="{&quot;template&quot;: `&lt;ion-content padding&gt;&#10;  &lt;h2&gt;{{title}}&lt;/h2&gt;&#10;  &lt;ion-list&gt;&#10;    &lt;ion-item *ngFor=&quot;#task of tasks&quot; (click)=&quot;onSelect(task)&quot;&gt;&#10;      &lt;span&gt;{{task.id}}&lt;/span&gt; {{task.name}}&#10;    &lt;/ion-item&gt;&#10;  &lt;/ion-list&gt;&#10;&lt;/ion-content&gt;&#10;`...}" />
+            <marker date="1453817238000" expanded="true" signature="265:453" placeholder="..." />
+            <marker date="1453817238000" expanded="true" signature="299:438" placeholder="..." />
+            <marker date="1453817238000" expanded="true" signature="363:424" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/comment/comment.create.page.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-6.6666665">
-          <caret line="12" column="13" selection-start-line="5" selection-start-column="2" selection-end-line="12" selection-end-column="13" />
+          <caret line="17" column="27" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
           <folding>
-            <marker date="1453816065000" expanded="true" signature="112:508" placeholder="{&quot;template&quot;: `&#10;  &lt;ion-navbar *navbar&gt;&#10;    &lt;ion-title&gt;&#10;        Add Item&#10;    &lt;/ion-title&gt;&#10;    &lt;ion-buttons end&gt;&#10;        &lt;button (click)=&quot;save()&quot;&gt;Save&lt;/button&gt;&#10;    &lt;/ion-buttons&gt;&#10;&lt;/ion-navbar&gt;&#10;&#10;&lt;ion-content&gt;&#10;    &lt;ion-list&gt;&#10;      &lt;ion-input floating-label&gt;&#10;        &lt;ion-label&gt;Title&lt;/ion-label&gt;&#10;        &lt;input type=&quot;text&quot; [(ngModel)]=&quot;text&quot; /&gt;&#10;      &lt;/ion-input&gt;&#10;    &lt;/ion-list&gt;&#10;&lt;/ion-content&gt;&#10;&#10;`...}" />
-            <marker date="1453816065000" expanded="true" signature="151:303" placeholder="..." />
-            <marker date="1453816065000" expanded="true" signature="167:201" placeholder="..." />
-            <marker date="1453816065000" expanded="true" signature="223:289" placeholder="..." />
-            <marker date="1453816065000" expanded="true" signature="318:502" placeholder="..." />
-            <marker date="1453816065000" expanded="true" signature="333:487" placeholder="..." />
-            <marker date="1453816065000" expanded="true" signature="366:471" placeholder="..." />
-            <marker date="1453816065000" expanded="true" signature="541:966" placeholder="{...}" />
-            <marker date="1453816065000" expanded="true" signature="794:877" placeholder="{&quot;id&quot;: 0...}" />
+            <marker date="1453817737000" expanded="true" signature="153:333" placeholder="..." />
+            <marker date="1453817737000" expanded="true" signature="173:215" placeholder="..." />
+            <marker date="1453817737000" expanded="true" signature="241:315" placeholder="..." />
+            <marker date="1453817737000" expanded="true" signature="352:563" placeholder="..." />
+            <marker date="1453817737000" expanded="true" signature="371:544" placeholder="..." />
+            <marker date="1453817737000" expanded="true" signature="408:524" placeholder="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/comment/comment.page.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.45731708">
-          <caret line="20" column="26" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
+        <state vertical-scroll-proportion="0.13109756">
+          <caret line="13" column="178" selection-start-line="13" selection-start-column="66" selection-end-line="13" selection-end-column="66" />
           <folding>
-            <marker date="1453816635000" expanded="true" signature="295:512" placeholder="..." />
-            <marker date="1453816635000" expanded="true" signature="315:378" placeholder="..." />
-            <marker date="1453816635000" expanded="true" signature="404:494" placeholder="..." />
-            <marker date="1453816635000" expanded="true" signature="539:800" placeholder="..." />
-            <marker date="1453816635000" expanded="true" signature="554:785" placeholder="..." />
-            <marker date="1453816635000" expanded="true" signature="631:769" placeholder="..." />
-            <marker date="1453816635000" expanded="true" signature="688:689" placeholder="..." />
-            <marker date="1453816635000" expanded="true" signature="688:749" placeholder="..." />
+            <marker date="1453817467000" expanded="true" signature="295:512" placeholder="..." />
+            <marker date="1453817467000" expanded="true" signature="315:378" placeholder="..." />
+            <marker date="1453817467000" expanded="true" signature="404:494" placeholder="..." />
+            <marker date="1453817467000" expanded="true" signature="539:837" placeholder="..." />
+            <marker date="1453817467000" expanded="true" signature="567:822" placeholder="..." />
+            <marker date="1453817467000" expanded="true" signature="648:802" placeholder="..." />
+            <marker date="1453817467000" expanded="true" signature="709:710" placeholder="..." />
+            <marker date="1453817467000" expanded="true" signature="709:778" placeholder="..." />
           </folding>
         </state>
       </provider>

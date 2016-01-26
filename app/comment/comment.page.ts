@@ -16,13 +16,13 @@ import {TaskService} from "../task/task.service";
     </ion-navbar>
 
     <ion-content padding>
-    <ion-list>
-        <ion-item *ngFor="#comment of comments" (click)="onSelect(comment)">
-            <ion-checkbox ng-checked="{{comment.done}}">
-                {{comment.text}}
-            </ion-checkbox>
-        </ion-item>
-    </ion-list>
+        <ion-list no-lines>
+            <ion-item *ngFor="#comment of comments" (click)="onSelect(comment)">
+                <ion-checkbox ng-checked="{{comment.done}}">
+                    {{comment.text}}
+                </ion-checkbox>
+            </ion-item>
+        </ion-list>
 </ion-content>
 `
 })

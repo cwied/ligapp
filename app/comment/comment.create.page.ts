@@ -3,24 +3,23 @@ import {Task} from '../task/task';
 
 @Page({
     template: `
-  <ion-navbar *navbar>
-    <ion-title>
-        Add Item
-    </ion-title>
-    <ion-buttons end>
-        <button (click)="save()">Save</button>
-    </ion-buttons>
-</ion-navbar>
+    <ion-navbar *navbar>
+        <ion-title>
+            Add Item
+        </ion-title>
+        <ion-buttons end>
+            <button (click)="save()">Save</button>
+        </ion-buttons>
+    </ion-navbar>
 
-<ion-content>
-    <ion-list>
-      <ion-input floating-label>
-        <ion-label>Title</ion-label>
-        <input type="text" [(ngModel)]="text" />
-      </ion-input>
-    </ion-list>
-</ion-content>
-
+    <ion-content>
+        <ion-list>
+          <ion-input floating-label>
+            <ion-label>Text</ion-label>
+            <input type="text" [(ngModel)]="text" />
+          </ion-input>
+        </ion-list>
+    </ion-content>
 `
 })
 export class CommentCreatePage {
