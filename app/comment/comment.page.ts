@@ -1,21 +1,45 @@
-import {Page, NavParams} from 'ionic-framework/ionic';
+import {Page, NavParams, NavController} from 'ionic-framework/ionic';
 import {Comment} from './comment';
 import {Task} from '../task/task';
+import {CommentCreatePage} from "./comment.create.page";
+import {TaskService} from "../task/task.service";
 
 @Page({
-    templateUrl: 'build/comment/comment-list.html'
+    template: `
+    <ion-navbar *navbar>
+        <ion-title>
+            {{currentTask.name}} Comments
+        </ion-title>
+        <ion-buttons end>
+            <button (click)="addComment(currentTask)">Add</button>
+        </ion-buttons>
+    </ion-navbar>
+
+    <ion-content padding>
+    <ion-list>
+        <ion-item *ngFor="#comment of comments" (click)="onSelect(comment)">
+            <ion-checkbox ng-checked="{{comment.done}}">
+                {{comment.text}}
+            </ion-checkbox>
+        </ion-item>
+    </ion-list>
+</ion-content>
+`
 })
 export class CommentPage {
     public comments: Comment[];
     public selectedComment: Comment;
-    //public currentTask: Task;
+    public currentTask: Task;
 
-    constructor(navParams: NavParams) {
-        alert("constructor" + navParams.get("_currentTask").name);
-        this.comments = navParams.get("_currentTask").comments;
-        //this.comments = this.currentTask.comments;
-        //alert("TASK:" + this.currentTask.name);
+    constructor(navParams: NavParams, private _nav: NavController) {
+        var currentTask = navParams.get("_currentTask");
+        this.comments = currentTask.comments;
+        this.currentTask = currentTask;
     }
 
     onSelect(comment: Comment) { this.selectedComment = comment; }
+
+    addComment(task: Task) {
+        this._nav.push(CommentCreatePage, { _currentTask: task });
+    }
 }

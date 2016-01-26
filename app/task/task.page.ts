@@ -21,5 +21,5 @@ export class TaskPage {
   ngOnInit() {
     this.getTasks();
   }
-  onSelect(task: Task) { alert(task.comments); this._nav.push(CommentPage, { _currentTask: task }); }
+  onSelect(task: Task) { this._nav.push(CommentPage, { _currentTask: task }); }
 }
