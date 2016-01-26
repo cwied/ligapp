@@ -1,5 +1,5 @@
 import {App, Platform} from 'ionic-framework/ionic';
-import {Page1} from './pages/page1/page1';
+import {TaskPage} from './task/task.page.ts';
 
 // https://angular.io/docs/ts/latest/api/core/Type-interface.html
 import {Type} from 'angular2/core';
@@ -10,7 +10,7 @@ import {Type} from 'angular2/core';
   config: {} // http://ionicframework.com/docs/v2/api/config/Config/
 })
 export class MyApp {
-  rootPage: Type = Page1;
+  rootPage: Type = TaskPage;
 
   constructor(platform: Platform) {
     platform.ready().then(() => {

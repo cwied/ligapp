@@ -1,13 +1,13 @@
 import {Page} from 'ionic-framework/ionic';
 import {Component, OnInit} from 'angular2/core';
-import {Task} from '../task';
-import {TaskService} from '../task.service';
+import {Task} from './task';
+import {TaskService} from './task.service';
 
 @Page({
-  templateUrl: 'build/pages/page1/page1.html',
+  templateUrl: 'build/task/task-list.html',
   providers: [TaskService]
 })
-export class Page1 {
+export class TaskPage {
   public title = 'LIG Tasks';
   public tasks: Task[];
   public selectedTask: Task;
