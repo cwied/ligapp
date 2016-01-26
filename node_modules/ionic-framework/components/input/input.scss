@@ -1,0 +1,59 @@
+@import "../../globals.core";
+
+// Input
+// --------------------------------------------------
+
+.item-input {
+  display: block;
+  background: transparent;
+  border: 0;
+  flex: 1;
+  pointer-events: none;
+}
+
+input.item-input:-webkit-autofill {
+  background-color: transparent;
+}
+
+input,
+textarea {
+  @include placeholder();
+}
+
+.platform-mobile textarea {
+  resize: none;
+}
+
+
+// Scroll Assist
+// --------------------------------------------------
+
+[scroll-assist] {
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  background: transparent;
+  border: 0;
+  pointer-events: none;
+}
+
+
+// Input focused
+// --------------------------------------------------
+
+.input-focused .item-input {
+  pointer-events: auto;
+}
+
+
+// Clear Input Icon
+// --------------------------------------------------
+
+.text-input-clear-icon {
+  margin: 0;
+  padding: 0;
+
+  background-repeat: no-repeat;
+  background-position: center;
+  position: absolute;
+}
